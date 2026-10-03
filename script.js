@@ -7,7 +7,7 @@ const menuMakanan = [
     nama: "Donat",
     harga: 10000,
     desc: "Donat lembut aneka topping",
-    gambar: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400"
+    gambar: "https://i.ibb.co.com/hQ64qLj/resep-donat-kampung.jpg"
   },
   {
     nama: "Kentang Goreng",
@@ -20,28 +20,36 @@ const menuMakanan = [
     harga: 20000,
     desc: "Dimsum ayam isi 4 pcs",
     gambar: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400"
-  }
-];
-
-// ===== MINUMAN =====
-const menuMinuman = [
+  },
   {
-    nama: "Coklat",
+    nama: "Tahu Kocek",
+    harga: 10000,
+    desc: "Tahu crispy isi cabai rawit",
+    gambar: "https://i.ibb.co.com/7dtHcM2m/images.jpg"
+  },
+  {
+    nama: "Sosis Goreng",
     harga: 12000,
-    desc: "Es coklat creamy",
-    gambar: "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400"
+    desc: "Sosis goreng crispy + saus",
+    gambar: "https://i.ibb.co.com/zhvmXG6z/resep-sosis-goreng-kriuk.jpg"
   },
   {
-    nama: "Red Velvet",
+    nama: "Pisang Keju",
     harga: 15000,
-    desc: "Red velvet latte dingin",
-    gambar: "https://images.unsplash.com/photo-1615478503562-ec2d8aa0e24e?w=400"
+    desc: "Pisang goreng topping keju",
+    gambar: "https://i.ibb.co.com/VpBk1X8d/images-1.jpg"
   },
   {
-    nama: "Matcha",
-    harga: 15000,
-    desc: "Matcha latte premium",
-    gambar: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400"
+    nama: "Telur Gulung",
+    harga: 10000,
+    desc: "Telur gulung isi sosis & sayur",
+    gambar: "https://i.ibb.co.com/HLndVzh8/images-2.jpg"
+  },
+  {
+    nama: "Sempol",
+    harga: 8000,
+    desc: "Sempol ayam isi 3 pcs + saus",
+    gambar: "https://i.ibb.co.com/dJMyBdBt/resep-sempol-ayam-43.jpg"
   }
 ];
 
@@ -73,4 +81,3 @@ function renderMenu(data, containerId) {
 }
 
 renderMenu(menuMakanan, "menuMakanan");
-renderMenu(menuMinuman, "menuMinuman");
