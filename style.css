@@ -67,6 +67,8 @@ header p { font-size: 0.9rem; opacity: 0.9; }
   margin-top: 8px;
 }
 
+.btn-pesan:active { background: #1da851; }
+
 .wa-float {
   position: fixed;
   bottom: 20px;
