@@ -1,5 +1,7 @@
+// ===== GANTI NOMOR WA DI SINI =====
 const NOMOR_WA = "6281233964272";
 
+// ===== MAKANAN =====
 const menuMakanan = [
   {
     nama: "Donat",
@@ -21,6 +23,7 @@ const menuMakanan = [
   }
 ];
 
+// ===== MINUMAN =====
 const menuMinuman = [
   {
     nama: "Coklat",
@@ -42,12 +45,13 @@ const menuMinuman = [
   }
 ];
 
+// ===== RENDER MENU =====
 function renderMenu(data, containerId) {
   const container = document.getElementById(containerId);
 
   data.forEach(item => {
     const pesanWA = encodeURIComponent(
-      `Halo, saya mau pesan:\n\n🍽️ ${item.nama}\n💰 Rp ${item.harga.toLocaleString('id-ID')}\n\nTerima kasih!`
+      `Halo Nendra Shop, saya mau pesan:\n\n🛒 ${item.nama}\n💰 Rp ${item.harga.toLocaleString('id-ID')}\n\nTerima kasih!`
     );
 
     const card = document.createElement("div");
